@@ -10,7 +10,7 @@ class MainKtTest {
         val paid = 0
         val paymentValue = 10
         val tax = calculateTax(cardType, paid, paymentValue)
-        assertEquals(0, tax)
+        assertEquals(10, tax)
     }
 
     @Test
